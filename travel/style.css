@@ -6,8 +6,70 @@
 body{
     max-width: 1440px;
     margin: 0 auto;
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 header{
+    height: 90px;
+    color: #FFFFFF;
     background-color: #F2785CB2;
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.logo{
+    font: bold 32px 'Magra', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: auto 0;
+    gap: 6px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    font-size: 16px;
+    font-weight: 500;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 42px;
+}
+
+button{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: #FFFFFF;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border: none;
+    border-radius: 10px;
+}
+
+header>button{
+    margin: 25px 0;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    background-color: #555555;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;;
+}
+

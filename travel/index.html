@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <title>Travel Page</title>
   </head>
 
   <body>
     <header>
+      <div class="logo">
+        <img class="travel-logo" src="assets/Travel_logo.svg" alt="travel_logo">
+        <p>Travel Portal</p>
+      </div>
       <nav>
-        <div class="logo">
-            <p>Travel Portal</p>
-        </div>
-        <ul>
+        <ul class="navbar">
           <li><a href="#preview">How It Works</a></li>
           <li><a href="#steps">Plan Your Trip</a></li>
           <li><a href="#destinations">Destinations</a></li>
@@ -31,7 +38,11 @@
           and more
         </p>
         <label>
-          <input type="text" name="preferences" placeholder="What would you like to do?" />
+          <input
+            type="text"
+            name="preferences"
+            placeholder="What would you like to do?"
+          />
           <button>Start Planning</button>
         </label>
       </section>
