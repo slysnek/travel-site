@@ -11,12 +11,14 @@ body{
 
 header{
     height: 90px;
+    padding: 0 39px;
     color: #FFFFFF;
     background-color: #F2785CB2;
     box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+    gap: 2px;
 }
 
 .logo{
@@ -25,7 +27,7 @@ header{
     justify-content: center;
     align-items: baseline;
     margin: auto 0;
-    gap: 6px;
+    gap: 8px;
 }
 
 nav{
@@ -34,6 +36,7 @@ nav{
 }
 
 .navbar{
+    width: 527px;
     font-size: 16px;
     font-weight: 500;
     display:flex;
@@ -57,7 +60,11 @@ button{
 }
 
 header>button{
-    margin: 25px 0;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 25px 0px 25px 32px;
 }
 
 li{
@@ -98,15 +105,15 @@ h1{
     font-style: italic;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 54px;
-    margin-bottom: 46px;
+    margin-top: 32px;
+    margin-bottom: 45px;
 }
 
 #search{
     display: flex;
-    width: 67%;
+    width: 63%;
     align-items: center;
-    padding: 0 20px 0 41px;
+    padding: 6px 20px 3px 41px;
     justify-content: space-between;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 16px;
@@ -127,11 +134,13 @@ h1{
 }
 
 #search>button{
-    margin: 18px 0;
+    padding: 15px 32px;
+    margin: 13px 0;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    box-shadow: none;
 }
 
 h2{
@@ -283,6 +292,7 @@ h3{
 }
 
 #sec-2{
+    width: 1440px;
     position: absolute;
     top: 2450px;
     z-index: -1;
@@ -295,9 +305,10 @@ h3{
 }
 
 footer{
+    height:60px;
     display: flex;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 5px;
 }
 
 footer span{
@@ -310,6 +321,7 @@ footer span{
 }
 
 #footer-icons{
+
     width: 100%;
     display: flex;
     justify-content: flex-end;
