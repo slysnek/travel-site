@@ -301,7 +301,8 @@ h3{
 }
 
 #stories-button{
-    padding-right: 35px;
+    padding-left: 32px;
+    padding-right: 37px;
     justify-content: center;
     font-style: normal;
     font-weight: 500;
