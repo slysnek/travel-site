@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     max-width: 1440px;
     margin: 0 auto;
@@ -72,12 +76,18 @@ li{
 }
 
 li:hover{
-    background-color: #555555;
+    transition: 1s;
+    background-color: #FFFFFF;
 }
 
 a{
     color: #FFFFFF;
     text-decoration: none;;
+}
+
+a:hover{
+    transition: 1s;
+    color: #0D606F;
 }
 
 #sec-1{
