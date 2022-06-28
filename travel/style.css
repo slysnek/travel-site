@@ -258,7 +258,7 @@ figcaption{
     box-shadow: none;
 }
 
-#arrow-right{
+.arrow-right{
     margin-right: 12px;
 }
 
@@ -334,12 +334,12 @@ h3{
 }
 
 footer{
-    height:60px;
+    height:58px;
     display: flex;
     align-items: center;
 }
 
-footer span{
+#rights{
     margin-bottom: 3px;
     margin-right: 308px;
     justify-self: start;
