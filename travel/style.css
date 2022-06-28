@@ -184,6 +184,14 @@ align-items: center;
     align-items: center;
 }
 
+.step.step-1{
+    padding-right: 101px;
+}
+
+.step.step-3{
+    padding-left: 29px;
+}
+
 #destinations-header{
     margin-top: 97px;
     margin-bottom: 46px;
@@ -195,6 +203,10 @@ align-items: center;
     justify-content: center;
     gap: 60px;
     overflow: hidden;
+}
+
+.destinations-img{
+    border-radius: 2%;
 }
 
 figcaption{
@@ -209,6 +221,8 @@ figcaption{
 }
 
 .circles-wrapper{
+    margin-left: 2px;
+    margin-top: -24px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -231,10 +245,11 @@ figcaption{
     font-weight: 500;
     font-size: 24px;
     margin: 40px auto 80px auto;
+    box-shadow: none;
 }
 
 #arrow-right{
-    margin-right: 10px;
+    margin-right: 12px;
 }
 
 #sec-2-wrapper{
@@ -242,7 +257,7 @@ figcaption{
 }
 
 #stories-wrapper{
-    margin-top: 40px;
+    margin-top: 38px;
     padding: 40px 120px;
     background: rgba(255, 255, 255, 0.7);
     display: grid; 
@@ -286,15 +301,18 @@ h3{
 }
 
 #stories-button{
+    padding-right: 35px;
+    justify-content: center;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    box-shadow: none;
 }
 
 #sec-2{
     width: 1440px;
     position: absolute;
-    top: 2450px;
+    top: 2404px;
     z-index: -1;
 }
 
@@ -308,10 +326,11 @@ footer{
     height:60px;
     display: flex;
     align-items: center;
-    margin-top: 5px;
 }
 
 footer span{
+    margin-bottom: 3px;
+    margin-right: 308px;
     justify-self: start;
     color: #FFFFFF;
     font-family: 'Red Hat Text';
@@ -321,7 +340,8 @@ footer span{
 }
 
 #footer-icons{
-
+    margin-top: 4px;
+    margin-right: 122px;
     width: 100%;
     display: flex;
     justify-content: flex-end;
