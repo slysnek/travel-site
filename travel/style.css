@@ -34,6 +34,10 @@ header{
     gap: 8px;
 }
 
+.burger-menu{
+    display: none;
+}
+
 .logo:hover{
     background-color: #0D606F;
     transition: 1s;
@@ -108,6 +112,10 @@ a:hover{
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+#sec-1-mob{
+    display: none;
 }
 
 #preview{
@@ -372,4 +380,84 @@ footer{
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
+}
+
+/*mobile settings*/
+
+@media only screen and (max-width: 390px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: #333333;
+        max-width: 390px;
+    }
+    
+    #steps, #destinations, #stories, #sec-2, footer, nav, .logo>p, .login, .explore, .receive{
+        display:none;
+    }
+
+    header{
+        display: block;
+        height: auto;
+        background-color: unset;
+        box-shadow: none;
+        padding: 0 0 0 0;
+        margin: 43px 17px 0;
+    }
+
+    #sec-1{
+        display: none;
+    }
+
+    #sec-1-mob{
+        display: inline;
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+
+    .logo{
+        margin: auto 3px 0 -1px;
+        justify-content: space-between;
+    }
+
+    .logo:hover{
+        background-color: unset;
+    }
+
+    .burger-menu{
+        display: inline;
+        width: 35px;
+    }
+
+    #preview{
+        margin: 0;
+        margin-top: 67px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #search{
+        width:auto;
+        padding: 0;
+        height: 48px;
+        justify-content: space-around;
+    }
+
+    #search>input{
+        margin-left: -16px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    #search>button{
+        margin-right: -24px;
+        padding: 8px 9px;
+        font-size: 11px;
+    }
+
 }
