@@ -449,15 +449,22 @@ footer{
     }
 
     #search>input{
-        margin-left: -16px;
+        margin-left: 8px;
         font-size: 14px;
         line-height: 17px;
     }
 
     #search>button{
-        margin-right: -24px;
+        margin-left: 46px;
         padding: 8px 9px;
         font-size: 11px;
     }
+
+    @media only screen and (max-width: 375px){
+        #search>button{
+            margin-right: 8px;
+        }
+    }
+        
 
 }
