@@ -319,7 +319,7 @@ figcaption{
       ". ."; 
 }
 
-#stories-wrapper p{
+    .lorem{
     color: #0D606F;
     font-family: 'Aleo';
     font-style: normal;
@@ -332,6 +332,10 @@ figcaption{
     border-radius: 16px;
 }
 
+.stories-image-small{
+    display: none;
+}
+
 h3{
     color: #0D606F;
     font-family: 'Aleo';
@@ -339,6 +343,10 @@ h3{
     font-weight: 400;
     font-size: 35px;
     margin-bottom: 24px;
+}
+
+.lorem-small{
+    display: none;
 }
 
 #stories-button-wrapper{
@@ -412,7 +420,7 @@ footer{
         max-width: 390px;
     }
     
-    #stories, #sec-2, footer, nav, .logo>p, .login, .explore, .receive{
+    #sec-2, footer, nav, .logo>p, .login, .explore, .receive{
         display:none;
     }
 
@@ -547,7 +555,7 @@ footer{
         justify-content: center;
         padding: 8px 0px;
         font-size: 11px;
-        margin: 22px auto 80px auto;
+        margin: 22px auto 0px auto;
     }
 
     .arrow-right{
@@ -637,6 +645,62 @@ footer{
         font-size: 20px;
         line-height: 26px;
         color: #FFFFFF;
+    }
+
+    #stories-header{
+        margin-top: 21px;
+        font-size: 14px;
+    }
+
+    #stories-wrapper{
+        margin-top: 11px;
+        padding: 9px 15px;
+        background: rgba(255, 255, 255, 0.7);
+        grid-template-columns: 155px 195px;
+        grid-template-rows: 130px 130px 130px 130px;
+        gap: 15px 10px;
+    }
+
+    h3{
+        font-weight: bold;
+        margin-top: 5px;
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .stories-image{
+        display: none;
+    }
+
+    .stories-image-small{
+        display: initial;
+        filter: drop-shadow(0px 4px 4px #0D606F);
+        border-radius: 16px;
+    }
+
+    .lorem{
+        display: none;
+    }
+
+    .lorem-small{
+        display: block;
+        color: #0D606F;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    
+    #stories-button{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        box-shadow: none;
+        justify-content: center;
+        padding: 8px 0px;
+        font-size: 11px;
+        margin: 0 auto;
     }
 
 }
