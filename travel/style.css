@@ -209,6 +209,10 @@ align-items: center;
     color:#0D606F;
 }
 
+.break{
+    display: none;
+}
+
 .step{
     gap: 30px;
     display: flex;
@@ -476,7 +480,10 @@ footer{
     }
 
     .three-steps{
-        margin-top: 22px;
+        justify-content: space-between;
+        margin-left: 14px;
+        margin-right: 10px;
+        margin-top: 23px;
         font-size: 10px;
     }
 
@@ -485,4 +492,31 @@ footer{
         height: 70px;
     }
 
+    .step{
+        gap: 20px;
+    }
+
+    .step.step-1{
+        padding-right: 0px;
+    }
+
+    .step img{
+        width: 50%;
+    }
+
+    .step.step-2{
+        padding-left: 3px;
+    }
+
+    .step.step-3{
+        padding-left: 0px;
+    }
+
+    .step.step-3 p{
+        text-align: right;
+    }
+
+    .break{
+        display: initial;
+    }
 }
