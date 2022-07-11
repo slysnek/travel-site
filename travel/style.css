@@ -396,7 +396,7 @@ footer{
         max-width: 390px;
     }
     
-    #steps, #destinations, #stories, #sec-2, footer, nav, .logo>p, .login, .explore, .receive{
+    #destinations, #stories, #sec-2, footer, nav, .logo>p, .login, .explore, .receive{
         display:none;
     }
 
@@ -414,6 +414,7 @@ footer{
     }
 
     #sec-1-mob{
+        max-width: 100%;
         display: inline;
         position: absolute;
         top: 0;
@@ -465,6 +466,23 @@ footer{
             margin-right: 8px;
         }
     }
-        
+    
+    #steps{
+        margin-top: 80px;
+    }
+
+    #steps>h2{
+        font-size: 14px;
+    }
+
+    .three-steps{
+        margin-top: 22px;
+        font-size: 10px;
+    }
+
+    .rectangle{
+        width: 70px;
+        height: 70px;
+    }
 
 }
