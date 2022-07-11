@@ -253,6 +253,10 @@ align-items: center;
     display: none;
 }
 
+.spain{
+    display: none;
+}
+
 figcaption{
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -587,7 +591,15 @@ footer{
     order: 0;
    }
 
+   .dest-arrows-wrapper{
+    border-radius: 16px;
+    margin: 0 15px;
+    height: 210px;
+    background: url(assets/spain-small.jpg);
+   }
+
    .destinations-wrapper{
+    display: none;
     border-radius: 16px;
    }
 
@@ -595,16 +607,36 @@ footer{
     display: initial;
    }
 
-    .arrow-dest {
-        display: initial;
-        position: absolute;
-        top: 573px;
-        left: 340px;
+   .arrow-dest{
+    display: initial;
+   }
+
+   .arrow-dest.left {
+        color: rgba(242, 120, 92, 0.5);
+        transform: rotate(180deg);
     }
 
-    .arrow-dest.right {
-        left: 20px;
-        transform: rotate(180deg);
-        background: rgba(242, 120, 92, 0.5);
+    .arrow-wrapper{
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 56px;
+        display: flex;
+        justify-content: space-between;
     }
+
+    .spain{
+        display: block;
+        padding-top: 7px;
+        padding-left: 15px;
+    }
+    .spain>p{
+        display: initial;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
 }
