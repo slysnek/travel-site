@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
     font-family: 'Red Hat Text', sans-serif;
 }
@@ -416,11 +416,10 @@ footer{
     }
 
     body{
-        background-color: #333333;
-        max-width: 390px;
+        width: 390px;
     }
     
-    #sec-2, footer, nav, .logo>p, .login, .explore, .receive{
+    #sec-1, #sec-2, nav, .logo>p, .login, .explore, .receive{
         display:none;
     }
 
@@ -433,12 +432,8 @@ footer{
         margin: 43px 17px 0;
     }
 
-    #sec-1{
-        display: none;
-    }
-
     #sec-1-mob{
-        max-width: 100%;
+        max-width: 390px;
         display: inline;
         position: absolute;
         top: 0;
@@ -485,12 +480,6 @@ footer{
         font-size: 11px;
     }
 
-    @media only screen and (max-width: 375px){
-        #search>button{
-            margin-right: 8px;
-        }
-    }
-    
     #steps{
         margin-top: 80px;
     }
@@ -703,4 +692,30 @@ footer{
         margin: 0 auto;
     }
 
+    #stories-button-wrapper{
+        padding-bottom: 14px;
+    }
+
+    #footer{
+        height: 65px;
+
+    }
+
+    #footer-icons{
+        margin-top: 11px;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    #rights{
+        display: none;
+    }
+
+    #sec-2-mob{
+        max-width: 390px;
+        display: inline;
+        position: absolute;
+        top: 783px;
+        z-index: -1;
+    }
 }
