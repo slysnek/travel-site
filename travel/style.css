@@ -732,14 +732,18 @@ footer{
         z-index: -1;
     }
 
-    nav{
-        position: absolute;
+    #nav{
+        position: fixed;
+        top: 0px;
+        right: -200px;
         width: 165px;
         height: 250px;
         background-color: #F2785C;
         border-radius: 10px;
         flex-direction: column;
         box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+        transition-duration: 1s;
+        overflow: hidden;
     }
 
     .navbar-small{
