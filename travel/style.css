@@ -50,6 +50,10 @@ nav{
     align-items: center;
 }
 
+.close{
+    display: none;
+}
+
 .navbar{
     width: 527px;
     font-size: 16px;
@@ -59,6 +63,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     gap: 42px;
+}
+
+.navbar-small{
+    display: none;
 }
 
 button{
@@ -423,7 +431,7 @@ footer{
         width: 390px;
     }
     
-    #sec-1, #sec-2, .logo>p, .login, .explore, .receive{
+    .navbar, #sec-1, #sec-2, .logo>p, .login, .explore, .receive{
         display:none;
     }
 
@@ -722,5 +730,36 @@ footer{
         position: absolute;
         top: 783px;
         z-index: -1;
+    }
+
+    nav{
+        position: absolute;
+        width: 165px;
+        height: 250px;
+        background-color: #F2785C;
+        border-radius: 10px;
+        flex-direction: column;
+        box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+    }
+
+    .navbar-small{
+        display: flex;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px 0px 0px 25px;
+        text-align:right;
+        gap: 10px;
+    }
+
+    .close{
+        display: initial;
+        margin-bottom: 10px;
+        align-self: flex-start;
+        padding-top: 8px;
+        padding-left: 8px;
     }
 }
