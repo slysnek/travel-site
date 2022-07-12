@@ -108,7 +108,7 @@ a:hover{
 }
 
 #sec-1{
-    max-width: 100%;
+    max-width: 1440px;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -373,6 +373,10 @@ h3{
     z-index: -1;
 }
 
+#sec-2-mob{
+    display: none;
+}
+
 #rights{
     display: flex;
     align-items: center;
@@ -419,7 +423,7 @@ footer{
         width: 390px;
     }
     
-    #sec-1, #sec-2, nav, .logo>p, .login, .explore, .receive{
+    #sec-1, #sec-2, .logo>p, .login, .explore, .receive{
         display:none;
     }
 
@@ -712,6 +716,7 @@ footer{
     }
 
     #sec-2-mob{
+        display: inline;
         max-width: 390px;
         display: inline;
         position: absolute;
