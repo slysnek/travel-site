@@ -116,7 +116,7 @@ a:hover{
 }
 
 #sec-1{
-    max-width: 1440px;
+    width: 1440px;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -375,7 +375,7 @@ h3{
 }
 
 #sec-2{
-    max-width: 1440px;
+    width: 1440px;
     position: absolute;
     top: 2404px;
     z-index: -1;
@@ -445,7 +445,7 @@ footer{
     }
 
     #sec-1-mob{
-        max-width: 390px;
+        width: 390px;
         display: inline;
         position: absolute;
         top: 0;
@@ -732,7 +732,7 @@ footer{
 
     #sec-2-mob{
         display: inline;
-        max-width: 390px;
+        width: 390px;
         display: inline;
         position: absolute;
         top: 783px;
