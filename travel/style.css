@@ -249,6 +249,16 @@ align-items: center;
     overflow: hidden;
 }
 
+.destinations-img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.slider-image{
+    transition: all 0.5s;
+}
+
 .destinations-img{
     border-radius: 2%;
 }
@@ -266,6 +276,7 @@ align-items: center;
 }
 
 figcaption{
+    display: inline;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
@@ -277,8 +288,8 @@ figcaption{
 }
 
 .circles-wrapper{
+    padding-top: 10px;
     margin-left: 2px;
-    margin-top: -24px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -290,10 +301,16 @@ figcaption{
     width: 20px;
     background: #F2785C80;
     border-radius: 50%;
+    transition: all 0.5s;
 }
 
 .circle.center{
     background-color: #F2785C;
+}
+
+.circle:hover{
+    cursor: pointer;
+    background-color: #0D606F;
 }
 
 #destinations-button{
@@ -313,7 +330,7 @@ figcaption{
 }
 
 #stories-wrapper{
-    margin-top: 38px;
+    margin-top: 4px;
     padding: 40px 120px;
     background: rgba(255, 255, 255, 0.7);
     display: grid; 
@@ -418,6 +435,8 @@ footer{
     gap: 20px;
 }
 
+/*tablet settings*/
+
 @media only screen and (max-width: 1439px) and (min-width:391px){
     body{
         overflow-x:hidden;
@@ -496,6 +515,10 @@ footer{
         margin: 0 auto;
     }
 
+    figcaption{
+        display: block;
+    }
+
     .destinations-img{
         object-fit: cover;
         max-width: 100%;
@@ -559,6 +582,7 @@ footer{
 
 
 }
+
 /*mobile settings*/
 
 @media only screen and (max-width: 390px){
@@ -713,6 +737,7 @@ footer{
    }
 
    .circles-wrapper{
+    padding-top: 0px;
     margin-left: 0;
     gap: 6px;
     margin-top: -21px;
