@@ -131,19 +131,3 @@ function slider_mobile(){
 
 slider()
 slider_mobile();
-
-window.addEventListener('resize', function (){
-    if(innerWidth > 390){
-        slider();
-        console.log("second condition: desktiop")
-    } else {
-
-        slider_mobile();
-        console.log("second condition: monbile")
-    }
-})
-
-
-
-
-/*let width = setInterval(() => innerWidth, 1000);*/
