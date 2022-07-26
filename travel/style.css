@@ -304,13 +304,8 @@ figcaption{
     transition: all 0.5s;
 }
 
-.circle.center{
+.active{
     background-color: #F2785C;
-}
-
-.circle:hover{
-    cursor: pointer;
-    background-color: #0D606F;
 }
 
 #destinations-button{
@@ -510,8 +505,9 @@ footer{
     }
 
     .destinations-wrapper{
+        max-width: 1300px;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         margin: 0 auto;
     }
 
@@ -715,13 +711,21 @@ footer{
 
     #destinations-header{
         font-size: 14px;
-        margin-top: 19px;
+        margin-top: 18px;
         margin-bottom: 22px;
     }
 
     .destinations-wrapper{
+        justify-content:start;
         margin: 0 15px;
         height: 210px;
+        border-radius: 16px;
+    }
+
+    .mobile-slider-wrapper{
+        position: relative;
+        margin: 0 auto;
+        margin-top: -30px;
     }
 
     #destinations-button{
@@ -737,10 +741,11 @@ footer{
    }
 
    .circles-wrapper{
+    position: relative;
     padding-top: 0px;
     margin-left: 0;
     gap: 6px;
-    margin-top: -21px;
+    margin-top: -20px;
    }
 
    .circle{
@@ -748,60 +753,41 @@ footer{
     width: 8px;
    }
    
-   .circle.center{
-    order: -1;
-   }
-
    figcaption{
     font-size: 20px;
-    bottom: 800px;
-    left: 230px;
+    bottom: 207px;
+    left: 15px;
    }
 
    .destinations-img{
     display: none;
 }
-   .spain-image{
-    order:1;
-   }
-
-   .japan-image{
-    order: 2
-   }
-
-   .usa-image{
-    order: 0;
-   }
-
-   .dest-arrows-wrapper{
-    border-radius: 16px;
-    margin: 0 15px;
-    height: 210px;
-    background: url(assets/spain-small.jpg);
-   }
-
-   .destinations-wrapper{
-    display: none;
-    border-radius: 16px;
-   }
-
    .destinations-img-small{
     display: initial;
    }
 
    .arrow-dest{
     display: initial;
+    transition: all 0.5s;
+   }
+
+   .arrow-dest:hover{
+    cursor: pointer;
+    background-color:#0D606F;
+    border-radius: 20px;
    }
 
    .arrow-dest.left {
-        color: rgba(242, 120, 92, 0.5);
         transform: rotate(180deg);
     }
 
     .arrow-wrapper{
-        padding-right: 5px;
-        padding-left: 5px;
-        padding-top: 56px;
+        margin-right: 40px;
+        max-width: 350px;
+        z-index: 2;
+        position: relative;
+        top: 120px;
+        left: 20px;
         display: flex;
         justify-content: space-between;
     }
